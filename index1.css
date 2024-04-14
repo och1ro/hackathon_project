@@ -147,13 +147,13 @@ body {
 }
 
 .engagements img {
-    width: 20px;
+    width: 15px;
 
 }
 
 .engagements img:nth-child(1) {
     margin-right: 10px;
-    width: 25px;
+    width: 20px;
 }
 
 .date {
