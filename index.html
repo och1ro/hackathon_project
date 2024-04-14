@@ -19,7 +19,7 @@
             <img src="sagehen.png" alt="">
             <div class="content">
                 <h2>Comment as: </h2>
-                <input type="text" value="Anonymous" class="user">
+                <input type="text" value="Sagehen" class="user">
 
                 <div class="reviewinput">
                     <input type="text" placeholder="Enter review" class="userReview">
@@ -61,7 +61,7 @@ const notify = document.querySelector(".notifyinput");
     function addPost() {
         if(!userReview.value) return;
         USERID.name = userName.value;
-        if(USERID.name === "Anonymous") {
+        if(USERID.name === "Sagehen") {
             USERID.identity = false;
             USERID.image = "sagehen.png"
         }else {
