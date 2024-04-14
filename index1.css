@@ -180,3 +180,8 @@ body {
     right: 10%;
     top: 68%;
 }
+
+.flex-container {
+    display: flex; /* Establishes a flex container */
+    flex-direction: row; /* Aligns children in a row; use 'column' for vertical */
+}
