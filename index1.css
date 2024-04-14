@@ -168,3 +168,15 @@ body {
     color: #FF9900;
     font-size: 75px;
 }
+
+.menu-title-container{
+    position: absolute;
+    top: 68%; 
+}
+
+.menu-container{
+    position: absolute;
+    position: center;
+    right: 10%;
+    top: 68%;
+}
